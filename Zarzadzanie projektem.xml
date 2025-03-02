@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2025-03-02 20:52:38">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+			<XMI.exporterID>1704</XMI.exporterID>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_43CE5ECE_DEB9_42e8_AAA2_5F86715DD368">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Zarz¹dzanie projektem" xmi.id="EAPK_43CE5ECE_DEB9_42e8_AAA2_5F86715DD368" isRoot="true" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="created" value="2019-02-04 00:00:00"/>
+						<UML:TaggedValue tag="modified" value="2019-02-04 00:00:00"/>
+						<UML:TaggedValue tag="iscontrolled" value="1"/>
+						<UML:TaggedValue tag="xmlpath" value="C:\Users\bedna\Downloads\Zarzadzanie projektem.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2019-02-04 23:13:12"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="0"/>
+						<UML:TaggedValue tag="usedtd" value="1"/>
+						<UML:TaggedValue tag="owner" value="sebastian"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="1"/>
+						<UML:TaggedValue tag="tpos" value="8"/>
+						<UML:TaggedValue tag="packageFlags" value="isModel=1;Recurse=1;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_43CE5ECE_DEB9_42e8_AAA2_5F86715DD368_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="1 Stage Workflow" xmi.id="EAID_10F22003_C430_4776_97C6_AF9967CF1D59" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_43CE5ECE_DEB9_42e8_AAA2_5F86715DD368"/>
+										<UML:TaggedValue tag="date_created" value="2019-02-04 23:12:43"/>
+										<UML:TaggedValue tag="date_modified" value="2019-02-10 19:04:08"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_10F22003_C430_4776_97C6_AF9967CF1D59"/>
+										<UML:TaggedValue tag="package_name" value="Zarz¹dzanie projektem"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="sparxsys"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="object_style" value="MDoc=1;"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="23"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="modeldocument"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="2 Stage Workflow" xmi.id="EAID_A6F0F284_D430_46ea_9DF3_F555245BE154" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_43CE5ECE_DEB9_42e8_AAA2_5F86715DD368"/>
+										<UML:TaggedValue tag="date_created" value="2019-02-04 23:13:10"/>
+										<UML:TaggedValue tag="date_modified" value="2016-04-07 15:50:45"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_A6F0F284_D430_46ea_9DF3_F555245BE154"/>
+										<UML:TaggedValue tag="package_name" value="Zarz¹dzanie projektem"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="sparxsys"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="24"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="1 Stage Workflow" xmi.id="EAPK_10F22003_C430_4776_97C6_AF9967CF1D59" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_43CE5ECE_DEB9_42e8_AAA2_5F86715DD368"/>
+								<UML:TaggedValue tag="created" value="2019-02-04 23:12:43"/>
+								<UML:TaggedValue tag="modified" value="2019-02-10 19:04:08"/>
+								<UML:TaggedValue tag="iscontrolled" value="0"/>
+								<UML:TaggedValue tag="lastloaddate" value="2019-02-04 23:12:43"/>
+								<UML:TaggedValue tag="lastsavedate" value="2019-02-04 23:12:43"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="0"/>
+								<UML:TaggedValue tag="usedtd" value="0"/>
+								<UML:TaggedValue tag="logxml" value="0"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="sparxsys"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="2 Stage Workflow" xmi.id="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_43CE5ECE_DEB9_42e8_AAA2_5F86715DD368"/>
+								<UML:TaggedValue tag="created" value="2019-02-04 23:13:10"/>
+								<UML:TaggedValue tag="modified" value="2019-02-04 23:13:10"/>
+								<UML:TaggedValue tag="iscontrolled" value="0"/>
+								<UML:TaggedValue tag="lastloaddate" value="2019-02-04 23:13:10"/>
+								<UML:TaggedValue tag="lastsavedate" value="2019-02-04 23:13:10"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="0"/>
+								<UML:TaggedValue tag="usedtd" value="0"/>
+								<UML:TaggedValue tag="logxml" value="0"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="sparxsys"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Iteration" xmi.id="EAID_0C0AF844_4B86_4378_AACD_1FBFE345D4A6" visibility="public" namespace="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="UMLDiagram"/>
+										<UML:TaggedValue tag="ea_ntype" value="1"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154"/>
+										<UML:TaggedValue tag="date_created" value="2019-02-04 23:13:10"/>
+										<UML:TaggedValue tag="date_modified" value="2019-02-04 23:13:10"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="2 Stage Workflow"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="sparxsys"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="styleex" value="ConstructID=0;"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="22"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="diagram" value="EAID_A2267B26_16C9_42ee_95D6_F7EBA3B581F4"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Collaboration xmi.id="EAID_A6F0F284_D430_46ea_9DF3_F555245BE154_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="Jako student chc&#x119; mieæ mo¿liwoœæ poznania terminu i miejsca egzaminu dyplomowego, aby móc do niego przyst¹piæ." xmi.id="EAID_1F2444AB_AC38_4461_8A79_1CB417122933" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="UserStory"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154"/>
+												<UML:TaggedValue tag="date_created" value="2019-02-04 23:10:24"/>
+												<UML:TaggedValue tag="date_modified" value="2025-03-02 20:38:21"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="2 Stage Workflow"/>
+												<UML:TaggedValue tag="phase" value="Backlog"/>
+												<UML:TaggedValue tag="author" value="andrzej.stasiak"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="UserStory"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="19"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="difficulty" value="Medium"/>
+												<UML:TaggedValue tag="priority" value="High"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={65672AFE-1539-4ac1-AC17-B7C971758B0A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UserStory;FQName=Kanban::UserStory;@ENDSTEREO;$DES;$CLT={1F2444AB-AC38-4461-8A79-1CB417122933}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Class name="Backlog" xmi.id="EAID_CA05CEF1_4272_4407_9AEF_40C1099B1434" visibility="public" namespace="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="UMLDiagram"/>
+										<UML:TaggedValue tag="ea_ntype" value="1"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154"/>
+										<UML:TaggedValue tag="date_created" value="2019-02-04 23:13:10"/>
+										<UML:TaggedValue tag="date_modified" value="2019-02-04 23:13:10"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="2 Stage Workflow"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="sparxsys"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="styleex" value="ConstructID=0;"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="27"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="diagram" value="EAID_18748559_D741_450a_A38F_68E33E87BF43"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="1 stage workflow" xmi.id="EAID_28B5670B_FE7A_43f0_90DB_7A4FA47D791B" diagramType="CustomDiagram" owner="EAPK_10F22003_C430_4776_97C6_AF9967CF1D59" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="sparxsys"/>
+				<UML:TaggedValue tag="created_date" value="2019-02-04 23:12:43"/>
+				<UML:TaggedValue tag="modified_date" value="2025-03-02 20:38:53"/>
+				<UML:TaggedValue tag="package" value="EAPK_10F22003_C430_4776_97C6_AF9967CF1D59"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=16777215;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SW1=200;SW2=200;SW3=200;SW4=200;SW5=200;SW6=200;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=false;kanbanactive=true;kanbanType=Element.Phase;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="6"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=0;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=EA6D9E24;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=0;KanbanActive=1;KanbanType=Element.Phase;KanbanFont=lfh--19,lfw-0,lfi-0,lfu-0,lfs-0,lfface-Arial;KBS=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Kanban::Iteration;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;KB=1;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=14;Top=82;Right=186;Bottom=162;" subject="EAID_1F2444AB_AC38_4461_8A79_1CB417122933" seqno="1" style="DUID=53E141AA;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;HideIcon=0;BCol=8519755;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_123316CF_C7E9_4eea_B20C_97E28F7BB71F" style="swimlane;name=Backlog;class=;partition=1;description=OE0={1F2444AB-AC38-4461-8A79-1CB417122933}:;Behavior=Kanban:Def=1:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_6E773DE1_7389_4ce0_B693_CFC94BFC167A" style="swimlane;name=Queue;class=;partition=2;description=;Behavior=Kanban:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_A3ECDE17_104E_4eae_9191_F230284FFA40" style="swimlane;name=In Progress;class=;partition=3;description=;Behavior=Kanban:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_B252491B_6C86_4a7c_8E30_AEBA62CF825A" style="swimlane;name=Test/Review;class=;partition=4;description=;Behavior=Kanban:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_945CB49A_5DA9_44d4_887F_B4AEC85F34B5" style="swimlane;name=Done;class=;partition=5;description=;Behavior=Kanban:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_106CB31A_BE25_4a43_BEF0_633E7B943C2C" style="swimlane;name=Deploy;class=;partition=6;description=;Behavior=Kanban:;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Backlog" xmi.id="EAID_18748559_D741_450a_A38F_68E33E87BF43" diagramType="CustomDiagram" owner="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="sparxsys"/>
+				<UML:TaggedValue tag="created_date" value="2019-02-04 23:13:10"/>
+				<UML:TaggedValue tag="modified_date" value="2019-02-10 19:11:03"/>
+				<UML:TaggedValue tag="package" value="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=16777215;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SW1=200;SW2=200;SW3=200;SW4=200;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=false;kanbanactive=true;kanbanType=Element.Priority;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="7"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=0;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=B8B2CE49;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=0;KanbanActive=1;KanbanType=Element.Priority;KanbanFont=lfh--19,lfw-0,lfi-0,lfu-0,lfs-0,lfface-Arial;KBS=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Kanban::Backlog;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;KB=1;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{CA05CEF1-4272-4407-9AEF-40C1099B1434}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=425;Top=81;Right=575;Bottom=161;" subject="EAID_1F2444AB_AC38_4461_8A79_1CB417122933" seqno="1" style="DUID=57300FB3;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=860;Top=70;Right=1160;Bottom=270;" subject="EAID_0C0AF844_4B86_4378_AACD_1FBFE345D4A6" seqno="2" style="DUID=B59F429C;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_B709C132_8C15_427b_95A3_4703CFA2E33A" style="swimlane;name=Low;class=;partition=1;description=;Behavior=Kanban:Def=1:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_EB88B6F5_1D21_4dbd_8208_9C1F29169EEE" style="swimlane;name=Medium;class=;partition=2;description=;Behavior=Kanban:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_D5D1FC5D_D212_47ae_A73F_1B17A2810906" style="swimlane;name=High;class=;partition=3;description=OE0={1F2444AB-AC38-4461-8A79-1CB417122933}:;Behavior=Kanban:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_B2E861A1_ABE0_4aea_BAAE_3616AC9347C4" style="swimlane;name=Critical;class=;partition=4;description=;Behavior=Kanban:;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Iteration" xmi.id="EAID_A2267B26_16C9_42ee_95D6_F7EBA3B581F4" diagramType="CustomDiagram" owner="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="sparxsys"/>
+				<UML:TaggedValue tag="created_date" value="2019-02-04 23:13:10"/>
+				<UML:TaggedValue tag="modified_date" value="2019-02-10 18:44:15"/>
+				<UML:TaggedValue tag="package" value="EAPK_A6F0F284_D430_46ea_9DF3_F555245BE154"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=16777215;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SW1=200;SW2=200;SW3=200;SW4=200;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=false;kanbanactive=true;kanbanType=Element.Phase;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="8"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=0;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=AA68455C;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=0;KanbanActive=1;KanbanType=Element.Phase;KanbanFont=lfh--19,lfw-0,lfi-0,lfu-0,lfs-0,lfface-Arial;KBS=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Kanban::Iteration;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;KB=1;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{0C0AF844-4B86-4378-AACD-1FBFE345D4A6}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=25;Top=81;Right=175;Bottom=161;" subject="EAID_1F2444AB_AC38_4461_8A79_1CB417122933" seqno="1" style="DUID=BDD70761;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1100;Top=70;Right=1400;Bottom=270;" subject="EAID_CA05CEF1_4272_4407_9AEF_40C1099B1434" seqno="2" style="DUID=BAF134D7;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_75CE94A3_A70E_459f_B77A_46C9400AB814" style="swimlane;name=Zg³oszenie;class=;partition=1;description=OE0={1F2444AB-AC38-4461-8A79-1CB417122933}:;Behavior=Kanban:Def=1:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_6AFAE195_E424_47fb_8505_10340E4D0FA1" style="swimlane;name=Realizacja;class=;partition=2;description=;Behavior=Kanban:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_8D4A47D1_39C9_4356_AB35_8942D1F27623" style="swimlane;name=Akceptacja;class=;partition=3;description=;Behavior=Kanban:;"/>
+				<UML:DiagramElement geometry="width=200;" subject="EAID_1BF126C7_291E_44d0_BBBC_918967F040AD" style="swimlane;name=Wykonano;class=;partition=4;description=;Behavior=Kanban:;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAModel.resource>
+			<EAResource name="Andrzej" type="Application Analyst" subject="EAPK_10F22003_C430_4776_97C6_AF9967CF1D59">
+				<UML:ModelElement.taggedValue>
+					<UML:TaggedValue tag="time" value="0,000000"/>
+					<UML:TaggedValue tag="percentcomplete" value="0"/>
+					<UML:TaggedValue tag="datestart" value="2019-02-10 00:00:00"/>
+					<UML:TaggedValue tag="dateend" value="2019-02-10 00:00:00"/>
+					<UML:TaggedValue tag="expected" value="0"/>
+					<UML:TaggedValue tag="actual" value="0"/>
+				</UML:ModelElement.taggedValue>
+			</EAResource>
+			<EAResource name="Wacek" type="Application Analyst" subject="EAPK_10F22003_C430_4776_97C6_AF9967CF1D59">
+				<UML:ModelElement.taggedValue>
+					<UML:TaggedValue tag="time" value="0,000000"/>
+					<UML:TaggedValue tag="percentcomplete" value="0"/>
+					<UML:TaggedValue tag="datestart" value="2019-02-10 00:00:00"/>
+					<UML:TaggedValue tag="dateend" value="2019-02-10 00:00:00"/>
+					<UML:TaggedValue tag="expected" value="0"/>
+					<UML:TaggedValue tag="actual" value="0"/>
+				</UML:ModelElement.taggedValue>
+			</EAResource>
+			<EAResource name="Andrzej" type="Application Analyst" subject="EAID_1F2444AB_AC38_4461_8A79_1CB417122933">
+				<UML:ModelElement.taggedValue>
+					<UML:TaggedValue tag="time" value="0,000000"/>
+					<UML:TaggedValue tag="percentcomplete" value="30"/>
+					<UML:TaggedValue tag="datestart" value="2019-02-11 00:00:00"/>
+					<UML:TaggedValue tag="dateend" value="2019-02-14 00:00:00"/>
+					<UML:TaggedValue tag="expected" value="0"/>
+					<UML:TaggedValue tag="actual" value="0"/>
+				</UML:ModelElement.taggedValue>
+			</EAResource>
+		</EAModel.resource>
+	</XMI.extensions>
+</XMI>
