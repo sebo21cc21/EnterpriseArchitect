@@ -1,0 +1,85 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<MDG.Technology version="1.0"><Documentation id="1001" name="MDG" version="1" notes="MDG Tech"/><UMLProfiles><UMLProfile profiletype="uml2">
+	<Documentation id="40E54D5563" name="PW-CRC" version="1.0" notes="PW-CRC"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Karta CRC" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Komunikat" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Operation">
+						<Property name="isActive" value=""/>
+						<Property name="isQuery" value="false"/>
+						<Property name="isUnique" value=""/>
+						<Property name="lower" value=""/>
+						<Property name="upper" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Odpowiedzialno&#x15B;&#x107;" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Operation">
+						<Property name="isOrdered" value=""/>
+						<Property name="isQuery" value="false"/>
+						<Property name="isUnique" value=""/>
+						<Property name="lower" value=""/>
+						<Property name="upper" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile></UMLProfiles><DiagramProfile><UMLProfile profiletype="uml2">
+	<Documentation id="5F14E905F8" name="Diagram" version="1.0" notes="Diagram"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Sesja CRC" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Activity"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Struktura dziedzinowa" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical"/>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile></DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
+	<Documentation id="F8055BD6BD" name="Toolbox" version="1.0" notes="Toolbox"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Struktura" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="PW-CRC::Karta CRC(UML::Class)" type="" description="" unit="" values="" default=""/>
+					<Tag name="PW-CRC::Odpowiedzialno&#x15B;&#x107;(UML::Operation)" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Zachowanie" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="PW-CRC::Komunikat(UML::Operation)" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile></UIToolboxes></MDG.Technology>
