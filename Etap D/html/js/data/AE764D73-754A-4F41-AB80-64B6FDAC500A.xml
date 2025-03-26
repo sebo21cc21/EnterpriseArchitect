@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.2.2:1", "", "Zarzadzanie rezerwacjami", "EARoot/EA1/EA2/EA2/EA45.html", "175.png", "301", "0", "", "Logical diagram0","{AE3FE29F-2C77-1D07-B397-F930B687AB6C}");
+tocTab[tocTab.length] = new Array("0.1.2.2:2", "", "Dostępność", "EARoot/EA1/EA2/EA2/EA48.html", "247.png", "E3173", "0", "", "Enumeration0","{9E31CC5A-3B67-4b3c-8022-7BC52AB192FF}");
+tocTab[tocTab.length] = new Array("0.1.2.2:3", "", "Dostępność zasobu", "EARoot/EA1/EA2/EA2/EA49.html", "5.png", "E3174", "0", "", "Class0","{B87C0922-2696-7E06-9831-332F11D824CA}");

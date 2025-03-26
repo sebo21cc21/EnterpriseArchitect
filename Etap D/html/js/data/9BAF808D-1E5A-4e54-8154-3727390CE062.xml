@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2.1", "1", "Zarzadzanie systemem", "EARoot/EA1/EA2/EA1/EA28.html", "4.png", "", "", "{AC7066A8-134F-8A43-AE76-4D73754A4F41}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2", "1", "Zarzadzanie rezerwacjami", "EARoot/EA1/EA2/EA2/EA47.html", "4.png", "", "", "{AE764D73-754A-4F41-AB80-64B6FDAC500A}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.3", "1", "Zamawianie jedzenia", "EARoot/EA1/EA2/EA3/EA52.html", "4.png", "", "", "{AC7066A8-134F-8A43-B710-58CA34CEE8F6}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.4", "1", "Zamawianie sprzetu IT", "EARoot/EA1/EA2/EA4/EA57.html", "4.png", "", "", "{B71058CA-34CE-E8F6-B0B2-7C91FB2420B8}", "Package");
