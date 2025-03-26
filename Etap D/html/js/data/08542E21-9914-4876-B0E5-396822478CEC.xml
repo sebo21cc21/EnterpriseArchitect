@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1", "1", "Analiza systemu TableMate", "EARoot/EA1/EA1.html", "34.png", "", "", "{8A3A597B-DB0A-80ED-8FF5-90D90BAFAE7D}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "1", "Analysis View", "EARoot/EA2/EA490.html", "34.png", "", "", "{7DF64733-124F-446a-8716-04D7B0CB5B3C}", "Package");
-tocTab[tocTab.length] = new Array("0.3", "1", "Domain Model", "EARoot/EA3/EA493.html", "31.png", "", "", "{A681FEB9-0D52-444a-8183-EB30901BCCEF}", "Package");

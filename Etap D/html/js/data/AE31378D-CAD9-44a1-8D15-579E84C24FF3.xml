@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.4:1", "", "Kooperacje", "EARoot/EA1/EA4/EA200.html", "189.png", "145", "0", "", "Analysis diagram0","{55A9E4CC-EDA0-43b2-85AF-80E57045CF1F}");
-tocTab[tocTab.length] = new Array("0.1.4.1", "1", "Zarzadanie systemem", "EARoot/EA1/EA4/EA1/EA289.html", "4.png", "", "", "{9C64C35A-7FE0-42F8-96A4-E2473EDA6BB3}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4.2", "1", "Zarzadzanie rezerwacjami", "EARoot/EA1/EA4/EA2/EA373.html", "4.png", "", "", "{A0F41245-2211-B5A9-896F-6DE6869B4D30}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4.3", "1", "Zamawianie jedzenia", "EARoot/EA1/EA4/EA3/EA421.html", "4.png", "", "", "{85AB4526-1C96-2FEE-8AC9-80F160F70E6F}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4.4", "1", "Zamawianie sprzetu IT", "EARoot/EA1/EA4/EA4/EA464.html", "4.png", "", "", "{BD4C77F4-F7DF-64AD-83D9-305B77F5B51A}", "Package");
