@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Logika aplikacyjna</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Logika aplikacyjna </h1>
+			<!-- <img class="header_image" src="../../../../images/pw.jpg" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/pw.jpg" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.html">Etap D</a> / <a href="../../EA1.html">Analiza systemu TableMate</a> / <a href="../EA70.html">Klasy analityczne</a> / <a href="EA134.html">Logika aplikacyjna</a> / <a href="EA132.html">Logika aplikacyjna</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA132.html">Logika aplikacyjna</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA135.html">Ster_ZIT_AnulujZamówienie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA136.html">Ster_ZIT_EdytujZamówienie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA137.html">Ster_ZIT_PrzeglądajUtworzoneZamówienia</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA138.html">Ster_ZIT_UtwórzNoweZamówienieSprzętuIT</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA139.html">Ster_ZIT_WeryfikujDostępnośćSprzętuIT</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA140.html">Ster_ZIT_WyślijPowiadomienieOAnulowaniuZamówienia</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA141.html">Ster_ZIT_WyślijPowiadomienieOZamówieniu</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA142.html">Ster_ZJ_PrzeglądajHistorięZamówień</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA143.html">Ster_ZJ_PrzeglądajMenu</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA144.html">Ster_ZJ_UzupełnijDaneDostawy</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA145.html">Ster_ZJ_ZarządzajZamówieniami</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA146.html">Ster_ZJ_ZłóżZamówienie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA147.html">Ster_ZR_AnulujRezerwację</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA148.html">Ster_ZR_EdytujRezerwację</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA149.html">Ster_ZR_PrzeglądajUtworzoneRezerwacje</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA150.html">Ster_ZR_SprawdźDostępnośćZasobów</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA151.html">Ster_ZR_UtwórzNowąRezerwację</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA152.html">Ster_ZR_WeryfikujDostępnośćZasobu</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA153.html">Ster_ZR_WyślijPowiadomienieOAnulowaniuRezerwacji</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA154.html">Ster_ZR_WyślijPowiadomienieORezerwacji</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA155.html">Ster_ZR_ZarządzajRezerwacjami</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA156.html">Ster_ZS_DodajUżytkownika</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA157.html">Ster_ZS_EdytujDaneUżytkownika</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA158.html">Ster_ZS_EdytujRezerwacjeUżytkownika</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA159.html">Ster_ZS_EdytujZamówienieUżytkownika</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA160.html">Ster_ZS_GenerujRaportORezerwacjach</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA161.html">Ster_ZS_GenerujRaportOZamówieniach</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA162.html">Ster_ZS_PrzeglądajWszystkieRezerwacjeUżytkowników</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA163.html">Ster_ZS_PrzeglądajWszystkieZamówieniaSprzętuIT</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA164.html">Ster_ZS_SprawdźSzczegółyRezerwacjiUżytkownika</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA165.html">Ster_ZS_SprawdźSzczegółyZamówieniaSprzętuIT</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA166.html">Ster_ZS_UsuńRezerwacjeUżytkownika</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA167.html">Ster_ZS_UsuńUżytkownika</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA168.html">Ster_ZS_UsuńZamówienieUżytkownika</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA169.html">Ster_ZS_WyświetlAnalizęDanychORezerwacjach</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA170.html">Ster_ZS_WyświetlAnalizęDanychOZamówieniach</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA171.html">Ster_ZS_WyświetlDaneUżytkownika</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA172.html">Ster_ZS_ZarządzajListąUżytkowników</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA173.html">Ster_ZS_ZarządzajPowiadomieniami</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA174.html">Ster_ZS_ZarządzajSystemem</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA175.html">Ster_ZS_ZarządzajZasobamiISprzętemIT</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA133.png" usemap="#EA133" border="0" />
+
+<MAP NAME="EA133">
+<area shape="rect" coords="170,4337,245,4430" href="EA175.html" target="_self">
+<area shape="rect" coords="170,4236,245,4329" href="EA174.html" target="_self">
+<area shape="rect" coords="170,4136,245,4229" href="EA173.html" target="_self">
+<area shape="rect" coords="170,4035,245,4128" href="EA172.html" target="_self">
+<area shape="rect" coords="170,3935,245,4028" href="EA171.html" target="_self">
+<area shape="rect" coords="170,3834,245,3927" href="EA170.html" target="_self">
+<area shape="rect" coords="170,3734,245,3827" href="EA169.html" target="_self">
+<area shape="rect" coords="170,3633,245,3726" href="EA168.html" target="_self">
+<area shape="rect" coords="170,3533,245,3626" href="EA167.html" target="_self">
+<area shape="rect" coords="170,3432,245,3525" href="EA166.html" target="_self">
+<area shape="rect" coords="170,3332,245,3425" href="EA165.html" target="_self">
+<area shape="rect" coords="170,3231,245,3324" href="EA164.html" target="_self">
+<area shape="rect" coords="170,3131,245,3224" href="EA163.html" target="_self">
+<area shape="rect" coords="170,3030,245,3123" href="EA162.html" target="_self">
+<area shape="rect" coords="170,2930,245,3023" href="EA161.html" target="_self">
+<area shape="rect" coords="170,2829,245,2922" href="EA160.html" target="_self">
+<area shape="rect" coords="170,2729,245,2822" href="EA159.html" target="_self">
+<area shape="rect" coords="170,2628,245,2721" href="EA158.html" target="_self">
+<area shape="rect" coords="170,2528,245,2621" href="EA157.html" target="_self">
+<area shape="rect" coords="170,2427,245,2520" href="EA156.html" target="_self">
+<area shape="rect" coords="170,2327,245,2420" href="EA155.html" target="_self">
+<area shape="rect" coords="170,2226,245,2319" href="EA154.html" target="_self">
+<area shape="rect" coords="170,2126,245,2219" href="EA153.html" target="_self">
+<area shape="rect" coords="170,2025,245,2118" href="EA152.html" target="_self">
+<area shape="rect" coords="170,1925,245,2018" href="EA151.html" target="_self">
+<area shape="rect" coords="170,1824,245,1917" href="EA150.html" target="_self">
+<area shape="rect" coords="170,1724,245,1817" href="EA149.html" target="_self">
+<area shape="rect" coords="170,1623,245,1716" href="EA148.html" target="_self">
+<area shape="rect" coords="170,1523,245,1616" href="EA147.html" target="_self">
+<area shape="rect" coords="170,1422,245,1515" href="EA146.html" target="_self">
+<area shape="rect" coords="170,1322,245,1415" href="EA145.html" target="_self">
+<area shape="rect" coords="170,1221,245,1314" href="EA144.html" target="_self">
+<area shape="rect" coords="170,1121,245,1214" href="EA143.html" target="_self">
+<area shape="rect" coords="170,1020,245,1113" href="EA142.html" target="_self">
+<area shape="rect" coords="170,819,245,912" href="EA141.html" target="_self">
+<area shape="rect" coords="170,719,245,812" href="EA140.html" target="_self">
+<area shape="rect" coords="170,618,245,711" href="EA139.html" target="_self">
+<area shape="rect" coords="170,518,245,611" href="EA138.html" target="_self">
+<area shape="rect" coords="170,216,245,309" href="EA137.html" target="_self">
+<area shape="rect" coords="170,116,245,209" href="EA136.html" target="_self">
+<area shape="rect" coords="170,15,245,108" href="EA135.html" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Logika aplikacyjna : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">15.03.2025 14:14:28</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">24.03.2025 01:03:07</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">MagdalenaBrejna</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{0C104F6B-E17E-4fc9-86C6-44169391F1E9}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

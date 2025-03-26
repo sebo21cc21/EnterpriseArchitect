@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.2.4:1", "", "Zamawianie sprzetu IT", "EARoot/EA1/EA2/EA4/EA55.html", "175.png", "303", "0", "", "Logical diagram0","{80952DD6-EF67-930C-9BB3-9B5B6B82723A}");
+tocTab[tocTab.length] = new Array("0.1.2.4:2", "", "Dostepnosc Sprzetu", "EARoot/EA1/EA2/EA4/EA58.html", "247.png", "E4007", "0", "", "Enumeration0","{38C0E38E-44C5-4a9e-8F48-A1EF1459C543}");
+tocTab[tocTab.length] = new Array("0.1.2.4:3", "", "Typ", "EARoot/EA1/EA2/EA4/EA59.html", "247.png", "E3179", "0", "", "Enumeration0","{FAD05120-8A87-4120-B0B3-DFD7A75263BD}");
+tocTab[tocTab.length] = new Array("0.1.2.4:4", "", "Baza sprzętu IT", "EARoot/EA1/EA2/EA4/EA60.html", "5.png", "E3177", "0", "", "Class0","{B382E965-EE95-61B8-98DA-80B4998F16D5}");
+tocTab[tocTab.length] = new Array("0.1.2.4:5", "", "Sprzęt IT", "EARoot/EA1/EA2/EA4/EA61.html", "5.png", "E3178", "0", "", "Class0","{B480174D-1735-4319-8E85-D485F614BA8F}");
